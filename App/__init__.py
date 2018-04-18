@@ -1,6 +1,7 @@
 from flask import Flask
 
 from App import settings
+
 from App.ext import init_ext
 
 from App.views import init_blue
